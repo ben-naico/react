@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Component from "./components/Component";
 
 ReactDOM.render(
   <React.StrictMode>
-    <p>Hello</p>
+    <Component/>
   </React.StrictMode>,
   document.getElementById("root")
 );
